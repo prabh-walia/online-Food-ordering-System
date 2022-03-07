@@ -1,0 +1,632 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    width: 100%;
+    height: 80px;
+    background: #CE0505;
+    opacity: 100%;
+    position:relative;
+    padding:0 !important;
+  
+}
+.dropdown{
+    width:350px;
+    position:absolute;
+    top:165px;
+    left:20px;
+}
+.page {
+    background: #FBFBFB;
+    width: 100%;
+    height: 1000px;
+}
+.itemss {
+    position:relative;
+    top: 1px;
+left: 102px;
+display: flex;
+width: 1223px;
+height: 52px;
+opacity: 1;
+
+
+ }
+ .btnd {
+     background:#FFFFFF;
+      box-shadow: 0px 3px 6px #00000029;
+      color:#192F60;
+      text-align:left;
+      font-weight:500;
+ }
+ .btnd:onclick {
+  border:none;
+    outline:0 !important;
+ }
+  .btnd:focus {
+  border:none;
+    outline:0 !important;
+ }
+ .logoo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 52px;
+    height: 52px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 52px;
+    display: inline-block !important;
+ 
+ }
+ h3 {
+
+
+font-size: 33px;
+line-height: 52px;
+text-align: center;
+font-family: Poppins;
+letter-spacing: 0px;
+color: #EB2929;
+opacity: 1;
+font-weight:bold;
+
+ }
+ .groupitem{
+    position:relative;
+    
+    left: 900px;
+    top:1px;
+
+    
+    width: 250px;
+    height: 47px;
+  
+    display:flex;
+    opacity: 1;
+
+  align-items: center;
+
+ }
+ .loginn{
+    width: 43px;
+    height: 23px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    margin-top:1px;
+ }
+ .createacc{
+    width: 181px;
+    height: 45px;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 18px;
+    line-height: 47px;
+   text-align: center;
+   position:relative;
+   left:19px;
+   top:2px;
+   font-family: Poppins;
+
+ }
+ .heading {
+    width: 514px;
+    height: 51px;
+      font-weight: bold;
+    position: absolute;
+    top: 106px;
+   color: #192F60;
+   font-size: 36px;
+left: 113px;
+font-family: Poppins;
+ }
+ .filterbox {
+     position:absolute;
+     top: 185px;
+left: 113px;
+    width: 250px;
+    height: 602px;
+    background-color: #fff;
+    padding:5px;
+    padding-left:14px;
+    
+    box-shadow: 0px 3px 6px #00000029;
+ }
+ .filterbox1 {
+    position:absolute;
+    top: 185px;
+left: 113px;
+   width: 350px;
+   height: 609px;
+   background-color: #fff;
+   padding:5px;
+   padding-left:14px;
+   
+   box-shadow: 0px 3px 6px #00000029;
+}
+
+ .item {
+     position:absolute;
+     top: 185px;
+     left: 428px;
+     width: 784px;
+     height: 271px;
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+     box-shadow: 0px 3px 6px #00000029;
+     opacity: 1;
+ }
+ .item2 {
+    position:absolute;
+    top: 475px;
+    left: 428px;
+    width: 784px;
+    height: 271px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+.filter-heading{
+     font-size: 19px;
+     color:#192F60;
+     font-family: Poppins;
+   
+}
+.Select-Location {
+    font-size: 15px;
+    color:#192F60;
+    font-family: Poppins;
+}
+.Rectangle-2236 {
+    width: 208px;
+    height: 35px;
+    margin-top:6px;
+    font-family: Poppins;
+    border: 1px solid #8C96AB;
+border-radius: 3px;
+opacity: 1;
+padding:7px;
+color:#2c4579;
+font-size: 13px;
+}
+.Cuisine {
+    font-size: 15px;
+    color:#192F60;
+    font-family: Poppins;
+    margin-top:22px;
+}
+.check {
+    margin-top:9px;
+}
+.checkbox-items{
+    margin-left:6px;
+    color:#2c4579;
+font-size: 13px;
+font-family: Poppins;
+}
+.detail1{
+    width: 754px;
+    height: 140px;
+    margin:25px;
+    margin-bottom:10px;
+   border-bottom: 1.3px solid #DEDFE5ee;
+    display: flex;
+   
+}
+.detail2 {
+    width: 754px;
+    height: 90px;
+    margin-left:25px;
+    
+    display:flex;
+}
+.image {
+    width: 120px;
+    height: 120px;
+  
+ 
+}
+.imagedetail {
+
+width: 640px;
+height: 140px;
+padding-left:40px;
+}
+.dishname {
+    width: 310px;
+height: 43px;
+margin-top:10px;
+
+color:#192F60;
+font-size: 30px;
+font-family: Poppins;
+font-weight: bolder;
+}
+.image> img {
+    width: 120px;
+    height: 120px;
+}
+.dish {
+    width: 40px;
+height: 23px;
+color: #192F60;
+font-family: Poppins;
+margin:1px;
+font-size: 16px;
+}
+.location {
+    width: 370px;
+height: 23px;
+color:#636F88;
+font-family: Poppins;
+font-size: 15px;
+margin-top:3px;
+
+
+
+}
+.category {
+    width: 140px;
+    height: 90px;
+   
+    color: #636F88;
+    font-size: 16px;
+    font-family: Poppins;
+  
+
+
+}
+.dropdown{
+    display:none;
+}
+.a{
+    margin-top:3px;
+}
+.cost {
+    width: 251px;
+    height: 69px;
+   
+    color:#192F60;
+    font-size: 16px;
+    font-family: Poppins;
+    margin-left:37px;
+}
+.pagination {
+    position: absolute;
+    top: 773px;
+    left: 650px;
+    width: 330px;
+    height: 38px;
+
+    display: flex;
+}
+.sidebutton{
+  
+   
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF;
+border: 1px solid #8C96AB;
+border-radius: 7px;
+margin-right: 16px;
+opacity: 1;
+margin-left: 3px;
+}
+.paging{
+
+   
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    opacity: 1;
+    margin-right:12px;
+
+   
+  
+}
+.sidebutton >a{
+text-decoration: none;
+color:#8C96AB;
+display: block;
+line-height: 36px;
+font-size:25px;
+text-align: center;
+
+}
+.paging >a {
+    text-decoration: none;
+    color:#8C96AB;
+    display: block;
+    line-height: 36px;
+    font-size:19px;
+    text-align: center;
+
+}
+.btnd{
+     color: #192F60;
+     font-family: Poppins;
+     font-weight: 600;
+     background:#FBFBFB;
+}
+.header {
+    background-image:url("/Users/prabhdeepsingh/zomato/html/photos/shutterstock_348320018 (1)/shutterstock_348320018.png");
+    background-position-y:center;
+     background-size: cover;
+   background-blend-mode:saturation;
+
+    height: 480px;
+
+}
+.loginnn{
+    width: 43px;
+    height: 23px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    margin-top:1px;
+ }
+ .createaccc{
+    width: 181px;
+    height: 45px;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 18px;
+    line-height: 47px;
+   text-align: center;
+   position:relative;
+   left:19px;
+   top:2px;
+   font-family: Poppins;
+
+ }
+ .groupitemm{
+    position:relative;
+    
+    left: 1100px;
+    top:1px;
+
+    
+    width: 250px;
+    height: 47px;
+  
+    display:flex;
+    opacity: 1;
+
+  align-items: center;
+
+ }
+ .logooo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 145px;
+    height: 145px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+    text-align: center;
+  
+    position:absolute;
+    
+top:11%;
+left:44%;
+
+
+ 
+ 
+ }
+ .logooo>h3 {
+
+
+font-size: 70px;
+line-height: 145px;
+text-align: center;
+font-family: Poppins;
+letter-spacing: 0px;
+color: #EB2929;
+opacity: 1;
+font-weight:bold;
+
+ }
+ .aa {
+     display: flex;
+     justify-content: center;
+ }
+ .fronthead {
+     position: absolute;
+     top: 250px;
+ font-weight:800;
+    width: 758px;
+    height: 51px;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 36px;
+ }
+ .input-group{
+
+     position: absolute;
+     top: 339px;
+     left:24%;
+ 
+     width: auto;
+
+ }
+.location{
+    width: 245px !important;
+height: 60px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.restaurants {
+    width: 476px !important;
+    margin-left:20px !important;
+height: 60px;
+margin-top:3px !important;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+.bodytext {
+    font-size: 30px;
+    font-family: Poppins;
+    color:#192F60;
+    font-weight: bold;
+    margin-top:36px;
+
+}
+.subhead {
+    margin-top:5px;
+    font-size: 17px;
+    color:#8C96AB;
+    font-family: Poppins;
+    letter-spacing: 0px;
+}
+.card-title {
+    width: 88px;
+    height: 25px;
+    color: #192F60;
+    font-size: 18px;
+    font-family: Poppins;
+}
+.card-text {
+    width: 138px;
+    height: 62px;
+    color: #8C96AB;
+    font-size: 15px;
+    font-family: Poppins;
+}
+.menus {
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+@media screen and (max-width:480px){
+    .itemss {
+       
+        left: 20px;      
+    }
+    .groupitem{  
+        left: 118px;   
+    
+     }
+     .immg>img {
+         width: 100px;
+     }
+ .heading {
+       top: 120px;
+      left: 24px;
+      width: 310px;
+       height: 30px;
+    font-size: 22px;
+     }
+     .createacc{
+        width: 135px;
+        font-size: 13px;
+        height:32px;
+        line-height:31px;
+        
+    
+     }
+     .loginn{
+    width: 35px;
+    height: 20px;
+    font-size: 13px;
+    
+ }
+ .navbar {
+     height:60px;
+ }
+  .filterbox{
+ display :none;
+
+ }
+ .dropdown{
+     display:block;
+ }
+ .logoo {
+     margin-top:5px;
+     width:40px;
+     height:40px;
+     line-height:39px;
+ }
+ h3 {
+     font-size:23px;
+     line-height:39px;
+ }
+ .pagination{
+    width: 291px;
+    height: 32px;
+    top: 718px;
+left: 64px;
+ }
+ 
+ .item {
+     position:absolute;
+     top: 220px;
+     left: 0px;
+     width: 385px;
+     height: 215px;
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+     box-shadow: 0px 3px 6px #00000029;
+     opacity: 1;
+ }
+ .item2 {
+    position:absolute;
+    top: 456px;
+    left: 0px;
+    width: 385px;
+    height: 215px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+.detail1{
+    width: 345px;
+    height: 100px;
+   
+}
+.detail2 {
+    width: 345px;
+    height: 60px;
+
+}
+.image {
+    width: 70px;
+height: 70px;
+}
+.image>img {
+    width: 70px;
+    height: 70px;
+}
+.imagedetail{
+
+width: 340px;
+height: 80px;
+
+padding-left:15px;
+}
+.dishname{
+ width:202px;
+ height: 28px;
+ font-size:20px;
+ margin-top: 1px;
+}
+.dish{
+    width: 32px;
+    height: 19px;
+    font-size: 13px;
+}
+.location{
+    width: 278px;
+    height: 17px;
+    font-size:10px !important;
+}
+.category{
+    width: 180px;
+}
+}
